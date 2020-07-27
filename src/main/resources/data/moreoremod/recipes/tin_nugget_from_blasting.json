@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "moreoremod:tin_pickaxe"
+    },
+    {
+      "item": "moreoremod:tin_shovel"
+    },
+    {
+      "item": "moreoremod:tin_axe"
+    },
+    {
+      "item": "moreoremod:tin_hoe"
+    },
+    {
+      "item": "moreoremod:tin_sword"
+    },
+    {
+      "item": "moreoremod:tin_helmet"
+    },
+    {
+      "item": "moreoremod:tin_chestplate"
+    },
+    {
+      "item": "moreoremod:tin_leggings"
+    },
+    {
+      "item": "moreoremod:tin_boots"
+    }
+  ],
+  "result": "moreoremod:tin_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

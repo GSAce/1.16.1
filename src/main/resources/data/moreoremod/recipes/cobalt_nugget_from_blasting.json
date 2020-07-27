@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "moreoremod:cobalt_pickaxe"
+    },
+    {
+      "item": "moreoremod:cobalt_shovel"
+    },
+    {
+      "item": "moreoremod:cobalt_axe"
+    },
+    {
+      "item": "moreoremod:cobalt_hoe"
+    },
+    {
+      "item": "moreoremod:cobalt_sword"
+    },
+    {
+      "item": "moreoremod:cobalt_helmet"
+    },
+    {
+      "item": "moreoremod:cobalt_chestplate"
+    },
+    {
+      "item": "moreoremod:cobalt_leggings"
+    },
+    {
+      "item": "moreoremod:cobalt_boots"
+    }
+  ],
+  "result": "moreoremod:cobalt_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

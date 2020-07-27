@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "moreoremod:silver_pickaxe"
+    },
+    {
+      "item": "moreoremod:silver_shovel"
+    },
+    {
+      "item": "moreoremod:silver_axe"
+    },
+    {
+      "item": "moreoremod:silver_hoe"
+    },
+    {
+      "item": "moreoremod:silver_sword"
+    },
+    {
+      "item": "moreoremod:silver_helmet"
+    },
+    {
+      "item": "moreoremod:silver_chestplate"
+    },
+    {
+      "item": "moreoremod:silver_leggings"
+    },
+    {
+      "item": "moreoremod:silver_boots"
+    }
+  ],
+  "result": "moreoremod:silver_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}

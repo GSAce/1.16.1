@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreoremod:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreoremod:copper_nugget",
+    "count": 9
+  }
+}

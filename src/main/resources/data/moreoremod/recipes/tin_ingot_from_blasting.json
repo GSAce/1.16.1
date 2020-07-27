@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "moreoremod:tin_ore"
+  },
+  "result": "moreoremod:tin_ingot",
+  "experience": 0.3,
+  "cookingtime": 125
+}

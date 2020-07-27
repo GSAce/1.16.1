@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "moreoremod:cobalt_ore"
+  },
+  "result": "moreoremod:cobalt_ingot",
+  "experience": 0.5,
+  "cookingtime": 175
+}

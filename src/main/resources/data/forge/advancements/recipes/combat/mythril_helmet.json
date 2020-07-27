@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moreoremod:mythril_helmet"
+    ]
+  },
+  "criteria": {
+    "has_mythril_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoremod:mythril_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moreoremod:mythril_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mythril_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "moreoremod:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "moreoremod:copper_ingot"
+  }
+}

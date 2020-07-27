@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "X# ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "moreoremod:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "moreoremod:cobalt_axe"
+  },
+  "criteria": {
+    "has_cobalt_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoremod:cobalt_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moreoremod:cobalt_axe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cobalt_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

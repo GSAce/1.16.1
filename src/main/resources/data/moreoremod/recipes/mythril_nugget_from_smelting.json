@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "moreoremod:mythril_pickaxe"
+    },
+    {
+      "item": "moreoremod:mythril_shovel"
+    },
+    {
+      "item": "moreoremod:mythril_axe"
+    },
+    {
+      "item": "moreoremod:mythril_hoe"
+    },
+    {
+      "item": "moreoremod:mythril_sword"
+    },
+    {
+      "item": "moreoremod:mythril_helmet"
+    },
+    {
+      "item": "moreoremod:mythril_chestplate"
+    },
+    {
+      "item": "moreoremod:mythril_leggings"
+    },
+    {
+      "item": "moreoremod:mythril_boots"
+    }
+  ],
+  "result": "moreoremod:mythril_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}
