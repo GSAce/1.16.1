@@ -1,9 +1,6 @@
 package com.gsace.moreoremod;
 
-import com.gsace.moreoremod.init.Armor;
-import com.gsace.moreoremod.init.Blocks;
-import com.gsace.moreoremod.init.Items;
-import com.gsace.moreoremod.init.Tools;
+import com.gsace.moreoremod.init.*;
 import com.gsace.moreoremod.world.gen.OreGen;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -75,7 +72,7 @@ public class MoreOreMod
         final IForgeRegistry<Item> registry = event.getRegistry();
 
         Blocks.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            final Item.Properties properties = new Item.Properties().group(MyItemGroup.BUILDING_BLOCKS);
+            final Item.Properties properties = new Item.Properties().group(MyItemGroup.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(Objects.requireNonNull(block.getRegistryName()));
             registry.register(blockItem);

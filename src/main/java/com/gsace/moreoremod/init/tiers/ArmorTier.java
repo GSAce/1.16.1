@@ -12,19 +12,19 @@ import net.minecraft.util.SoundEvents;
 import java.util.function.Supplier;
 @SuppressWarnings("NullableProblems")
 public enum ArmorTier implements IArmorMaterial {
-    TIN(MoreOreMod.MODID + ":tin", 10, new int[]{1, 4, 5, 1}, 7, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0f, 1,  () ->{
+    TIN(MoreOreMod.MODID + ":tin", 10, new int[]{1, 4, 5, 1}, 7, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0f, 0,  () ->{
         return Ingredient.fromItems(Items.TinIngot.get());
     }),
-    COPPER(MoreOreMod.MODID + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0f, 1, () ->{
+    COPPER(MoreOreMod.MODID + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0f, 0, () ->{
         return Ingredient.fromItems(Items.CopperIngot.get());
     }),
-    COBALT(MoreOreMod.MODID + ":cobalt", 20, new int[]{3, 6, 8, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f,1,  () ->{
+    COBALT(MoreOreMod.MODID + ":cobalt", 20, new int[]{3, 6, 8, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f,0,  () ->{
         return Ingredient.fromItems(Items.CobaltIngot.get());
     }),
-    SILVER(MoreOreMod.MODID +":silver", 25, new int[]{4, 7, 9, 4}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f,1.5f,  () ->{
+    SILVER(MoreOreMod.MODID +":silver", 25, new int[]{4, 7, 9, 4}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f,0.2f,  () ->{
         return Ingredient.fromItems(Items.SilverIngot.get());
     }),
-    MYTHRIL(MoreOreMod.MODID + ":mythril", 30, new int[]{5, 8, 10, 5}, 70, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0f, 2, () ->{
+    MYTHRIL(MoreOreMod.MODID + ":mythril", 30, new int[]{5, 8, 10, 5}, 70, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.5f, () ->{
         return Ingredient.fromItems(Items.MythrilIngot.get());
     });
 
@@ -89,8 +89,4 @@ public enum ArmorTier implements IArmorMaterial {
         return this.knockback;
     }
 
-//    @Override
-    public float func_230304_f_() {
-        return 0;
-    }
 }
